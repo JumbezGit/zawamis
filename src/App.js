@@ -5,9 +5,9 @@ import Reset from './Auth/Reset';
 
 function App() {
   return (
-    // <Login></Login>
+    <Login></Login>
     // <Register></Register>
-    <Reset></Reset>
+    // <Reset></Reset>
   );
 }
 
