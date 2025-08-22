@@ -78,9 +78,7 @@ function Login() {
 
             <div className="d-flex justify-content-between mb-3">
               <Link to="/register" className="text-decoration-none">Not Registered?</Link>
-              <a href="/" className="text-decoration-none">
-                Forgot password?
-              </a>
+              <Link to="/reset" className="text-decoration-none">Forgot password?</Link>
             </div>
           </form>
         </div>
