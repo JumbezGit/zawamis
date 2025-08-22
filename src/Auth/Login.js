@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import bgImage from "../Imgs/zawaBg.jpg"; // Path to your background image
 import zawaLogo from "../Imgs/zawaLogo.png";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Register from "./Register";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -40,13 +42,15 @@ function Login() {
           <h3 className="text-center display-6">Login</h3>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
-              <label htmlFor="text" className="form-label">
-                User Name
+              <label htmlFor="email" className="form-label">
+                Email
               </label>
               <input
-                type="text"
-                className="form-control rounded-3 border-2"
-                id="text"
+                type="email"
+                className="form-control rounded-3 border-1"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </div>
@@ -57,7 +61,7 @@ function Login() {
               </label>
               <input
                 type="password"
-                className="form-control rounded-3 border-2"
+                className="form-control rounded-3 border-1"
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -73,12 +77,8 @@ function Login() {
             </button>
 
             <div className="d-flex justify-content-between mb-3">
-              <a href="/" className="text-decoration-none">
-                Dont Registered?
-              </a>
-              <a href="/" className="text-decoration-none">
-                Forgot password?
-              </a>
+              <Link to="/register" className="text-decoration-none">Not Registered?</Link>
+              <Link to="/reset" className="text-decoration-none">Forgot password?</Link>
             </div>
           </form>
         </div>
