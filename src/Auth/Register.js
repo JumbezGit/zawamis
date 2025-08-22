@@ -142,6 +142,14 @@ function Register() {
               />
             </div>
             {/* fifth row */}
+             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+              <input
+                type="text"
+                className="form-control  rounded-3 border-1"
+                id="text" placeholder="House Number"
+                required
+              />
+            </div>
             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
@@ -158,14 +166,7 @@ function Register() {
                 required
               />
             </div>
-            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
-              <input
-                type="text"
-                className="form-control  rounded-3 border-1"
-                id="text" placeholder="Full Name"
-                required
-              />
-            </div>
+           
             <div className="col-md-4">
               <button
                 type="submit"
