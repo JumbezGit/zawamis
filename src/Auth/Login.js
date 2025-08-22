@@ -26,7 +26,7 @@ function Login() {
         }}
       >
         <div
-          className="card shadow border-0 rounded-4 p-3"
+          className="card shadow border-0 rounded-4 p-3 bg-light"
           style={{ maxWidth: "330px", width: "100%" }}
         >
           <div className="d-flex justify-content-center">
