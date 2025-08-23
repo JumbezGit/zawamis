@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import bgImage from "../Imgs/zawaBg.jpg"; // Path to your background image
 import zawaLogo from "../Imgs/zawaLogo.png";
 import { Link } from 'react-router-dom';
@@ -41,9 +40,13 @@ function Reset() {
                 </div>
                 <h3 className="text-center display-6">Reset Password</h3>
                 {resetSent ? (
-                    <div className="alert alert-success" role="alert">
-                        Password reset link sent to {email}. Please check your email.
-                    </div>
+                    <><div className="alert alert-success" role="alert">
+                        Password reset link sent to {email}. Please check your email.<br />
+                    </div><div className="text-center" role="">
+                            <Link to="/" className="text-decoration-none"><button className="btn btn-sm btn-primary rounded-0 w-25">OK</button> </Link>
+                        </div></>
+
+                    
                 ) : (
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
