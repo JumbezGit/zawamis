@@ -43,47 +43,47 @@ function Register() {
                 required
               />
             </div>
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Middle Name"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Last Name"
                 required
               />
-            </div> */}
+            </div>
             {/* second row */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Phone Number"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Email Address"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Address"
                 required
               />
-            </div> */}
+            </div>
             {/* third row */}
             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
@@ -93,7 +93,7 @@ function Register() {
                 required
               />
             </div>
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <select
                 className="form-select  rounded-3 border-1"
                 id="select"
@@ -103,8 +103,8 @@ function Register() {
                 <option value="Married">Married</option>
                 <option value="Single">Single</option>
               </select>
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <select
                 className="form-select  rounded-3 border-1"
                 id="select"
@@ -114,57 +114,57 @@ function Register() {
                 <option value="">Male</option>
                 <option value="">Femal</option>
               </select>
-            </div> */}
+            </div>
             {/* fourth row */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Nationality"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Accupation"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="ZanId"
                 required
               />
-            </div> */}
+            </div>
             {/* fifth row */}
-             {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="House Number"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="Password"
                 required
               />
-            </div> */}
-            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div>
+            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
                 type="text"
                 className="form-control  rounded-3 border-1"
                 id="text" placeholder="User Name"
                 required
               />
-            </div> */}
+            </div>
            
             <div className="col-md-6">
               <button
