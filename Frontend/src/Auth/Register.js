@@ -1,8 +1,22 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import bgImage from "../Imgs/zawaBg.jpg"; // Path to your background image
+import bgImage from "../Imgs/zawaBg.jpg"; 
 import zawaLogo from "../Imgs/zawaLogo.png";
+import { useEffect, useState } from 'react';
 
 function Register() {
+    const [user, setLoginUser] = useState({});
+    useEffect (() => {
+      fetchData();
+    }, []);
+    const fetchData = async () => {
+     try {
+       const response = await fetch('http://127.0.0.1:8000/api/users/');
+       const data = await response.json();
+       setLoginUser(data);
+     } catch (error) {
+       console.error('Error fetching user data:', error);
+     }
+    };
   return (
     <div
       className="d-flex justify-content-center align-items-center vh-100"
@@ -91,18 +105,18 @@ function Register() {
                 required
               />
             </div>
-            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <select
                 className="form-select  rounded-3 border-1"
                 id="select"
                 required
               >
-                <option value="" selected hidden>Merital Status</option>
-                <option value="">Married</option>
-                <option value="">Single</option>
+                <option  selected hidden>Merital Status</option>
+                <option value="Married">Married</option>
+                <option value="Single">Single</option>
               </select>
-            </div>
-            <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
+            </div> */}
+            {/* <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <select
                 className="form-select  rounded-3 border-1"
                 id="select"
@@ -112,7 +126,7 @@ function Register() {
                 <option value="">Male</option>
                 <option value="">Femal</option>
               </select>
-            </div>
+            </div> */}
             {/* fourth row */}
             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
               <input
