@@ -18,7 +18,6 @@ function App() {
        const response = await fetch('http://127.0.0.1:8000/api/users/');
        const data = await response.json();
        console.log(data)
-
      } catch (err) {
        console.log(err);
      }
@@ -28,8 +27,8 @@ function App() {
      <Routes>
        <Route path="/Login" element={<Login />} />
        <Route path="/Nav" element={<Nav />} />
-       <Route path="/Header" element={<Header />} />
-       <Route path="/" element={<Register />} />
+       <Route path="/" element={<Header />} />
+       <Route path="/register" element={<Register />} />
        <Route path="/reset" element={<Reset />} />
      </Routes>
    </BrowserRouter>
