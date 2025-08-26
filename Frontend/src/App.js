@@ -27,8 +27,8 @@ function App() {
      <Routes>
        <Route path="/Login" element={<Login />} />
        <Route path="/Nav" element={<Nav />} />
-       <Route path="/" element={<Header />} />
-       <Route path="/register" element={<Register />} />
+       <Route path="/header" element={<Header />} />
+       <Route path="/" element={<Register />} />
        <Route path="/reset" element={<Reset />} />
      </Routes>
    </BrowserRouter>
