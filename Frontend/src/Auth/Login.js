@@ -3,6 +3,7 @@ import bgImage from "../Imgs/zawaBg.jpg"; // Path to your background image
 import zawaLogo from "../Imgs/zawaLogo.png";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Register from "./Register";
+import Payments from "../Admin/Payments";
 
 function Login() {
   const [email, setEmail] = useState("");

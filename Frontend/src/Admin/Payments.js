@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 function Payments() {
   return (
-    <div>Payments</div>
+      <>
+    <Header/>
+    <div className='text-center h5 text-success'> Payments </div>
+    </>
   )
 }
 

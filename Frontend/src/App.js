@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 import Login from './Auth/Login';
 import Register from './Auth/Register';
@@ -6,6 +7,7 @@ import Reset from './Auth/Reset';
 import Header from './Admin/Header';
 import Nav from './Admin/Nav';
 import Dashboard from './Admin/Dashboard';
+import Payments from './Admin/Payments';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
        <Route path="/register" element={<Register />} />
        <Route path="/reset" element={<Reset />} />
        <Route path="/dashboard" element={<Dashboard />} />
+       <Route path="/payments" element={<Payments />} />
      </Routes>
    </BrowserRouter>
   );
