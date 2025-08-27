@@ -4,8 +4,7 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-   
-      <><header className="py-2 bg-white shadow">
+       <header className="py-2 bg-white shadow-sm border-bottom mb-3">
           <div
               className="container-fluid d-grid gap- align-items-center"
               style={{ gridTemplateColumns: "1fr 2fr" }}
@@ -117,7 +116,7 @@ function Header() {
                   </div>
               </div>
           </div>
-      </header><Nav/></>
+      </header>
   );
 }
 

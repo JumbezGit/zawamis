@@ -5,6 +5,7 @@ import Register from './Auth/Register';
 import Reset from './Auth/Reset';
 import Header from './Admin/Header';
 import Nav from './Admin/Nav';
+import Dashboard from './Admin/Dashboard';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
        <Route path="/header" element={<Header />} />
        <Route path="/register" element={<Register />} />
        <Route path="/reset" element={<Reset />} />
+       <Route path="/dashboard" element={<Dashboard />} />
      </Routes>
    </BrowserRouter>
   );
