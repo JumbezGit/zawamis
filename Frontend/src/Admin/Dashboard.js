@@ -1,4 +1,5 @@
 import React from "react";
+import { IoPeople } from 'react-icons/io5';
 function Dashboard() {
   return (
     <div className="container">
@@ -6,11 +7,11 @@ function Dashboard() {
       <div className="row">
 
         <div className="col-xl-3 col-md-6  mb-3">
-          <div className="card bg-warning rounded-4 my-cursor shado border border-left-4">
+          <div className="card bg-light rounded-4 my-cursor">
             <div className="card-body p-3">
               <div className="row  ">
-                <i className="fa fa-users fa-2x my-1"></i>
-                <div>CUSTOMERS</div>
+                   <h4><IoPeople/></h4>
+                <div>Customeres</div>
                 <div className="text-end h5 ">100</div>
               </div>
             </div>
@@ -18,11 +19,11 @@ function Dashboard() {
         </div>
 
         <div className="col-xl-3 col-md-6  mb-3">
-          <div className="card bg-primary text-white rounded-4 my-cursor shado border-0">
+          <div className="card bg-light rounded-4 my-cursor">
             <div className="card-body p-3">
-              <div className="row  ">
-                <i className="fa fa-users fa-2x my-1"></i>
-                <div>CUSTOMERS</div>
+              <div className="row p-0 ">
+              <h4><IoPeople/></h4>
+                <div>Stations</div>
                 <div className="text-end h5 ">100</div>
               </div>
             </div>
@@ -30,11 +31,11 @@ function Dashboard() {
         </div>
 
         <div className="col-xl-3 col-md-6  mb-3">
-          <div className="card bg-success text-white rounded-4 my-cursor shado border-0">
+          <div className="card bg-light rounded-4 my-cursor">
             <div className="card-body p-3">
               <div className="row  ">
-                <i className="fa fa-users fa-2x my-1"></i>
-                <div>CUSTOMERS</div>
+               <h4><IoPeople/></h4>
+                <div>Deptors</div>
                 <div className="text-end h5 ">100</div>
               </div>
             </div>
@@ -42,11 +43,11 @@ function Dashboard() {
         </div>
 
         <div className="col-xl-3 col-md-6  mb-3">
-          <div className="card bg-danger text-white rounded-4 my-cursor shado border-0">
+          <div className="card bg-light rounded-4 my-cursor">
             <div className="card-body p-3">
               <div className="row  ">
-                <i className="fa fa-users fa-2x my-1"></i>
-                <div>CUSTOMERS</div>
+                <h4><IoPeople/></h4>
+                <div>Wells</div>
                 <div className="text-end h5 ">100</div>
               </div>
             </div>

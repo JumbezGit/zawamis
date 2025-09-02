@@ -21,7 +21,7 @@ function Layout({ children }) {
   <Nav/>
 
   <div className="flex-grow-1 overflow-auto p-3">
-    {children}
+    {/* {children} */}
   </div>
 </div>
   </div>

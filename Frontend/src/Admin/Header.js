@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header({ toggleSidebar }) {
   return (
     <header
-      className="py-2 bg-white shadow-sm"
+      className="py-2 bg-light shadow-sm"
       style={{
         position: "fixed",
         top: 0,
@@ -17,9 +17,7 @@ function Header({ toggleSidebar }) {
     >
       <div className="container-fluid d-flex align-items-center justify-content-between">
         {/* Logo */}
-        <img src={zawaLogo} alt="Zawamis Logo" style={{ maxHeight: "40px" }} />
-
-        {/* User Avatar */}
+        <span className="fw-bold text-center">ZANZIBAR WATER AUTHORITY</span>
         <div className="dropdown">
           <a
             href="#"
