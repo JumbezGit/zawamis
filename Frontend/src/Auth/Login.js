@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgImage from "../Imgs/zawaBg.jpg"; // Path to your background image
+import bgImage from "../Imgs/zawaBg.jpg"; 
 import zawaLogo from "../Imgs/zawaLogo.png";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Register from "./Register";

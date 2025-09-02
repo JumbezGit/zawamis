@@ -5,7 +5,9 @@ function Payments() {
   return (
       <>
     <Header/>
-    <div className='text-center h5 text-success'> Payments </div>
+    <div className="container">
+        <p>Ok</p>
+      </div>
     </>
   )
 }

@@ -1,53 +1,44 @@
 import React from "react";
-import Header from "./Header";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-   
-      <div
-        className="d-flex flex-column flex-shrink-0 bg-dark text-white p-3"
-        style={{ width: 200, height: "100vh" }}
-      >
-        {/* Sidebar Brand */}
-        <a
-          href="/"
-          className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
-        >
-          <span className="fs-4">ZAWA</span>
-        </a>
-        <hr />
-
-        {/* Navigation Menu */}
-        <ul className="nav nav-pills flex-column mb-auto">
-          <li className="nav-item mb-2">
-            <a href="#" className="nav-link active text-white btn rounded-0" aria-current="page">
-              Home
-            </a>
+    <div
+      className="bg-dark text-white d-flex flex-column vh-100 border-bottom"
+      style={{ width: "250px", height: "100"}}
+    >
+      <div className="d-flex align-items-center justify-content-center border-bottom border-secondary w-100 py-2">
+        <span className="fw-bold text-center">ZAWA ADMIN</span>
+      </div>
+      <nav className="w-100 p-2">
+        <ul className="list-unstyled d-flex flex-column align-items-start mt-3">
+          <li className="mb-3 w-100">
+            <Link to="/dashboard" className="text-white text-start btn w-100" >
+              <i className="fas fa-home"></i> Home  </Link>
           </li>
-          <li className="mb-2">
-            <a href="#" className="nav-link btn-secondary btn text-white rounded-0 text-start">
-              Dashboard
-            </a>
+          <li className="mb-3 w-100">
+            <Link to="/customers" className="text-white text-start btn w-100" >
+              <i className="fas fa-users"></i> Customers  </Link>
           </li>
-          <li>
-             <a href="#" className="nav-link btn-secondary btn text-white rounded-0 text-start">
-              Orders
-            </a>
+          <li className="mb-3 w-100">
+            <Link to="/stations" className="text-white text-start btn w-100" >
+              <i className="fas fa-users"></i> Stations  </Link>
           </li>
-          <li>
-             <a href="#" className="nav-link btn-secondary btn text-white rounded-0 text-start">
-              Products
-            </a>
+           <li className="mb-3 w-100">
+            <Link to="/deptors" className="text-white text-start btn w-100" >
+              <i className="fas fa-users"></i> Deptors  </Link>
           </li>
-          <li>
-             <a href="#" className="nav-link btn-secondary btn text-white rounded-0 text-start">
-              Customers
-            </a>
+          <li className="mb-3 w-100">
+            <Link to="/well" className="text-white text-start btn w-100" >
+              <i className="fas fa-users"></i> Wells  </Link>
+          </li>
+          <li className="mb-3 w-100">
+            <Link to="/security" className="text-white text-start btn w-100" >
+              <i className="fas fa-users"></i> Security  </Link>
           </li>
         </ul>
-       
-      </div>
-   
+      </nav>
+    </div>
   );
 }
 

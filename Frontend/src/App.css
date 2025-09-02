@@ -40,3 +40,16 @@
 .my-cursor{
   cursor: pointer;
 }
+li{
+   text-decoration: none;
+   list-style-type: none;
+}
+li:hover{
+  color: #fff;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
