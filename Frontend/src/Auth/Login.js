@@ -68,7 +68,7 @@ function Login() {
                 required
               />
             </div>
-            <Link to="/dashboard" className="btn btn-primary justify-content-center w-100" type="submit" > Login   </Link>
+            <Link to="/UserDash" className="btn btn-primary justify-content-center w-100" type="submit" > Login   </Link>
             <div className="d-flex justify-content-between mb-3">
               <Link to="/register" className="text-decoration-none">Not Registered?</Link>
               <Link to="/reset" className="text-decoration-none">Forgot password?</Link>
