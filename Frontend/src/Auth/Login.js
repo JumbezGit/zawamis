@@ -39,7 +39,7 @@ function Login() {
               style={{ maxHeight: "60px" }}
             />
           </div>
-          <h3 className="text-center display-6">Login</h3>
+          <h3 className="text-center display-6">ingia</h3>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">

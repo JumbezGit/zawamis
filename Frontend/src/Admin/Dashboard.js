@@ -3,7 +3,7 @@ import { IoPeople } from 'react-icons/io5';
 function Dashboard() {
   return (
     <div className="container">
-      <div className="h5 fw-light text-success mb-3"><i className="fa fa-home"></i> Home</div>
+      <div className="h5 fw-light text-success mb-3"><i className="fa fa-home"></i>nyumbani</div>
       <div className="row">
 
         <div className="col-xl-3 col-md-6  mb-3">

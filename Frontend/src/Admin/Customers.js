@@ -15,7 +15,7 @@ function Customers() {
   const customers = [
     { id: 1, name: 'John Doe', age: 28, city: 'New York' },
     { id: 2, name: 'Jane Smith', age: 34, city: 'Los Angeles' },
-    { id: 3, name: 'Bob Johnson', age: 45, city: 'Chicago' },
+    { id: 3, name: 'Bob Johnson', age: 45, city: 'malindi' },
     { id: 4, name: 'Alice Brown', age: 29, city: 'Houston' },
     { id: 5, name: 'Charlie Davis', age: 38, city: 'Phoenix' },
     { id: 6, name: 'Emma Wilson', age: 31, city: 'Philadelphia' },

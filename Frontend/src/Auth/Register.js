@@ -102,6 +102,7 @@ function Register() {
                 <option  selected hidden>Merital Status</option>
                 <option value="Married">Married</option>
                 <option value="Single">Single</option>
+                <option value="devorce">Devorce</option>
               </select>
             </div>
             <div className="col-md-6 col-sm-6 col-6  col-xl-4 mb-3">
