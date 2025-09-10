@@ -15,6 +15,10 @@ import Stations from './Admin/Stations';
 import Deptors from './Admin/Deptors';
 import Well from './Admin/Well';
 import Security from './Admin/Security';
+import UserLayout from './Users/UserLayout';
+import UserHeader from './Users/UserHeader';
+import UserNav from './Users/UserNav';  
+import UserDash from './Users/UserDash';
 
 function App() {
  const [users, setUsers] = useState({});
@@ -40,6 +44,11 @@ function App() {
        <Route path="/header" element={<Header />} />
        <Route path="/register" element={<Register />} />
        <Route path="/reset" element={<Reset />} />
+
+       {/* UserLayout */}
+        <Route path="/UserDash" element={<UserLayout><UserDash/></UserLayout>} />
+
+
         <Route path="/dashboard" element={<Layout><Dashboard/></Layout>} />
         <Route path="/customers" element={<Layout><Customers/></Layout>} />
         <Route path="/stations" element={<Layout><Stations/></Layout>} />
